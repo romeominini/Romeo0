@@ -1,3 +1,65 @@
 h1 {
-    text-emphasis-color: blue;
+   color: rgb(24, 167, 233);
+   text-align: center;
+} 
+h2 {
+    color: rgb(42, 165, 118);
+    margin: 20px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(248, 213, 213);
+}
+table:hover{
+    background-color: blueviolet;
+}
+div:hover{
+    background-color:rgb(229, 255, 0);
+}
+table{
+    border: 3px solid red;
+    width: 50%;
+}
+th, td{
+    border: 3px solid red;
+    padding:7px;
+    text-align: center;
+}
+th{
+    background-color: rgb(3, 100, 3);
+    text-decoration-color: rgb(22, 21, 21);
+}
+#div{
+    font-size: 36px;
+}
+ul{
+    font-size: 20px;
+}
+form{
+    font-size: 20px
+}
+input[type=text] {
+    background-color: aquamarine;
+}input[type=number] {
+    background-color: rgb(0, 225, 255);
+}
+p::selection{
+    color: bisque;
+    background-color: rgb(38, 0, 255);
+}
+@media(min-width:500px) {
+    body {
+        background-color: rgb(248, 213, 213);
+    }
+}
+@media(max-width:499px) {
+    body {
+        background-color: rgb(151, 167, 197);
+        
+    }
+}
+.row > div {
+padding: 20px;
+background-color: teal;
+border:2px solid black;
 }
