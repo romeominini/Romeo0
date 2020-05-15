@@ -1,0 +1,59 @@
+h1 {
+    color: rgb(233, 160, 24);
+    text-align: center;
+ } 
+ h2 {
+     color: rgb(128, 165, 42);
+     margin: 20px;
+     padding: 10px;
+ }
+ body{
+    background-color: rgb(26, 235, 19);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+p::selection{
+    color: bisque;
+    background-color: rgb(226, 94, 6);
+}@media(min-width:500px) {
+    body {
+        background-color: rgb(26, 235, 19);
+        text-align: justify;
+    }
+}
+@media(max-width:499px) {
+    body {
+        background-color: rgb(59, 99, 172);
+        text-align: justify;
+        
+    }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(78, 226, 236);
+  }
+  .active {
+    background-color: rgb(236, 52, 212);
+  }

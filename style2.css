@@ -1,0 +1,35 @@
+h1 {
+    color: rgb(67, 19, 241);
+    text-align: center;
+ } 
+ h2 {
+     color: rgb(8, 136, 241);
+     margin: 20px;
+     padding: 10px;
+ }
+ h3 {
+     color: rgb(125, 27, 216);
+ }
+ body{
+    background-color: rgb(252, 84, 215);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+p::selection{
+    color: rgb(93, 163, 180);
+    background-color: rgb(226, 94, 6);
+}@media(min-width:500px) {
+    body {
+        background-color: rgb(252, 84, 215);
+        text-align: justify;
+    }
+}
+@media(max-width:499px) {
+    body {
+        background-color: rgb(245, 248, 61);
+        text-align: justify;
+        
+    }
+}
